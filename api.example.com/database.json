@@ -1,0 +1,10 @@
+{
+    "dev": {
+      "host": "localhost",
+      "user": "root",
+      "password" : "",
+      "database": "test_go_api",
+      "driver": "mysql",
+      "multipleStatements": true
+    }
+  }
