@@ -29,7 +29,7 @@ func init() {
 }
 
 func main() {
-	db, err := DB.Connect()
+	db, err := DB.Connect("localhost", "3306", "root", "", "test_go_api", "")
 	if err != nil {
 		panic(err)
 	}
